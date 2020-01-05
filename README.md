@@ -1,4 +1,4 @@
-**Java-Christmas-Tasks**
+****JAVA CHRISTMAS TASKS****
 
 
 **Methodology:**
@@ -49,13 +49,13 @@ Certain changes were made in order to improve the code which have been documente
    allows for incorrect "FizzBuzz" values to stop occuring
    after change 2: [1, 2, Fizz, 4, Buz, Fizz, 7, 8, Fizz, Buz, 11, Fizz, 13, 14, FizzBuzz]
         
-    change 3: "FizzBuzzGenerator.java" line 14: || changed to &&
-    extra "FizzBuzz" string on end of returned list, allowed the expected length of 15 to be met (from actual length of 14)
-    after change 3: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14, FizzBuzz]
+   change 3: "FizzBuzzGenerator.java" line 14: || changed to &&
+   extra "FizzBuzz" string on end of returned list, allowed the expected length of 15 to be met (from actual length of 14)
+   after change 3: [1, 2, FizzBuzz, 4, FizzBuzz, FizzBuzz, 7, 8, FizzBuzz, FizzBuzz, 11, FizzBuzz, 13, 14, FizzBuzz]
         
-    change 4: "FizzBuzzGenerator.java" line 16: "Buz" string changed to "Buzz"
-    corrects misspell of "Buz" to "Buzz" in list
-    currently: fizzBuzzGenerator(1, 15) returns  [1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz]
+   change 4: "FizzBuzzGenerator.java" line 16: "Buz" string changed to "Buzz"
+   corrects misspell of "Buz" to "Buzz" in list
+   currently: fizzBuzzGenerator(1, 15) returns  [1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz]
    
    expected = actual, hence test has passed
    
@@ -65,7 +65,7 @@ Certain changes were made in order to improve the code which have been documente
        public void FizzBuzzTest() throws Exception {
            FizzBuzzGenerator generator = new FizzBuzzGenerator();
            List<String> FizzBuzzList = new ArrayList<String>();
-           Collections.addAll(FizzBuzzList,"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14", "FizzBuzz");
+           Collections.addAll(FizzBuzzList,"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "Buzz", "11", "Fizz", "13", "14",                  "FizzBuzz");
            assertEquals(FizzBuzzList, generator.FizzBuzz(1,16));
        }
 
